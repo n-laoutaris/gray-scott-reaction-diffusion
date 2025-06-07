@@ -4,13 +4,17 @@ This project implements the **Grey-Scott reaction-diffusion model** using [NGSol
 
 ![Sample Output](./images/grayscott-output.png)
 
+> This was a collaborative project developed with my partner as part of our exploration into mathematical pattern formation and numerical simulation. I give her my special thanks.
+
 ## What is Reaction-Diffusion?
 
-Reaction-diffusion systems model how substances react and diffuse through space. The **Grey-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes, and waves.
+Reaction-diffusion systems model how substances react and diffuse through space. The **Grey-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes, and waves — many of which resemble those seen in **animal coat markings**, **coral growth**, or **chemical reactions**.
 
 ## Inspiration
 
-This model is inspired by the work of Pearson (1993) and Gray & Scott (1984). It's widely used in morphogenesis studies to explore how simple reaction rules lead to rich natural patterns.
+This model builds on the work of Alan Turing, who first proposed that reaction-diffusion equations could explain natural pattern formation in biological systems — from leopard spots to fish stripes. Later developments like the Gray-Scott model (Gray & Scott, 1984) and Pearson's work (1993) have shown how simple local interactions can lead to rich emergent behavior.
+
+The patterns generated here mimic processes in morphogenesis, the study of how organisms develop their shape — and were a big inspiration behind this project.
 
 ## Features
 
@@ -32,7 +36,11 @@ You can experiment with the following model parameters:
 | `F`       | Feed rate                         | 0.03 – 0.07         |
 | `k`       | Kill rate                         | 0.055 – 0.065       |
 | `dt`      | Time step                         | 1 – 2               |
-| `iterations` | Number of time steps          | 1000 – 5000         |
+| `iterations` | Number of time steps           | 1000 – 5000         |
+
+Please note that most configurations that are outside the boundaries of function of the system will quickly lead to chaotic or exploding / diminishing values that will break the simulation.
+
+The notebook includes some sample values that produce interesting patterns.
 
 ## Running the Simulation
 
@@ -41,5 +49,7 @@ To run the simulation, use the sagma function with your parameters. For example:
 ```python
 sagma(D_u=0.064, F=0.035, k=0.057, dt=1, iterations=3000)
 ```
+
+Output will be shown directly in the Jupyter notebook interface using NGSolve's built-in visualizer.
 
 

@@ -4,7 +4,7 @@ This project implements the **Grey-Scott reaction-diffusion model** using [NGSol
 
 ![Sample Output](./images/grayscott-output.png)
 
-> This was a collaborative project developed with my partner as part of our exploration into mathematical pattern formation and numerical simulation. I give her my special thanks.
+This was a collaborative project developed with my partner as part of our exploration into mathematical pattern formation and numerical simulation. I give her my special thanks.
 
 ## What is Reaction-Diffusion?
 

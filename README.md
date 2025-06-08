@@ -1,6 +1,6 @@
-# Grey-Scott Reaction-Diffusion Simulator
+# Gray-Scott Reaction-Diffusion Simulator
 
-This project implements the **Grey-Scott reaction-diffusion model** using [NGSolve](https://ngsolve.org/), a high-performance finite element library. It simulates the emergence of complex patterns from simple chemical interactions and visualizes how parameters affect the evolution of these patterns over time.
+This project implements the **Gray-Scott reaction-diffusion model** using [NGSolve](https://ngsolve.org/), a high-performance finite element library. It simulates the emergence of complex patterns from simple chemical interactions and visualizes how parameters affect the evolution of these patterns over time.
 
 ![Sample Output](./images/grayscott-output.png)
 
@@ -8,7 +8,7 @@ This was a collaborative project developed with my partner as part of our explor
 
 ## What is Reaction-Diffusion?
 
-Reaction-diffusion systems model how substances react and diffuse through space. The **Grey-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes, and waves — many of which resemble those seen in **animal coat markings**, **coral growth**, or **chemical reactions**.
+Reaction-diffusion systems model how substances react and diffuse through space. The **Gray-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes, and waves — many of which resemble those seen in **animal coat markings**, **coral growth**, or **chemical reactions**.
 
 ## Inspiration
 
@@ -18,7 +18,7 @@ The patterns generated here mimic processes in morphogenesis, the study of how o
 
 ## Features
 
-- Full implementation of the Grey-Scott model in 2D
+- Full implementation of the Gray-Scott model in 2D
 - Customizable parameters (diffusion, feed, kill rate, time step)
 - Interactive visualization of pattern formation
 - Periodic boundary conditions for seamless pattern tiling

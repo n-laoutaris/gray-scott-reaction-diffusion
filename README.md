@@ -8,13 +8,13 @@ This was a collaborative project developed with my partner as part of our explor
 
 ## What is Reaction-Diffusion?
 
-Reaction-diffusion systems model how substances react and diffuse through space. The **Gray-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes, and waves — many of which resemble those seen in **animal coat markings**, **coral growth**, or **chemical reactions**.
+Reaction-diffusion systems model how substances react and diffuse through space. The **Gray-Scott model** is a two-variable system that simulates how an "activator" and an "inhibitor" interact. Despite its simplicity, it produces a wide variety of natural-looking patterns like spots, stripes and waves, many of which resemble those seen in **animal coat markings**, **coral growth**, or **chemical reactions**.
 
 ## Inspiration
 
-This model builds on the work of Alan Turing, who first proposed that reaction-diffusion equations could explain natural pattern formation in biological systems — from leopard spots to fish stripes. Later developments like the Gray-Scott model (Gray & Scott, 1984) and Pearson's work (1993) have shown how simple local interactions can lead to rich emergent behavior.
+This model builds on the work of Alan Turing, who first proposed that reaction-diffusion equations could explain natural pattern formation in biological systems, such as leopard spots and fish stripes. Later developments like the Gray-Scott model (Gray & Scott, 1984) and Pearson's work (1993) have shown how simple local interactions can lead to rich emergent behavior.
 
-The patterns generated here mimic processes in morphogenesis, the study of how organisms develop their shape — and were a big inspiration behind this project.
+The patterns generated here mimic processes in morphogenesis, the study of how organisms develop their shape, and were a big inspiration behind this project.
 
 ## Features
 
